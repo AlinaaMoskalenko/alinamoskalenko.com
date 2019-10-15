@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1601px" height="682px" viewBox="0 0 1601 682" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>back_4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="43.4584597%" y1="48.4350105%" x2="27.835621%" y2="64.3145368%" id="linearGradient-1">
+            <stop stop-color="#FAF9FD" offset="0%"></stop>
+            <stop stop-color="#F6F1FA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M90.0477259,61.3198041 C230.170777,168.666425 411.210135,185.866139 633.165799,112.918947 C966.099294,3.49815889 1248.04297,-65.6520317 1496.99325,94.259248 C1656.96129,202.040481 1586.47537,345.259528 1579.97667,441.196927 C1530.98646,703.487584 1155.03812,724.53548 918.10888,632.072377 C681.179645,539.609273 611.701336,496.660735 436.205142,559.11998 C260.708948,621.579224 139.530029,606.089331 39.8233834,523.643129 C-26.6477138,468.678994 -9.90626628,314.571219 90.0477259,61.3198041 Z" id="back_4" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

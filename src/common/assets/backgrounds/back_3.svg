@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2079px" height="943px" viewBox="0 0 2079 943" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>back_3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="31.4835463%" y1="37.8461777%" x2="126.298819%" y2="81.152718%" id="linearGradient-1">
+            <stop stop-color="#FAF9FD" offset="0%"></stop>
+            <stop stop-color="#F3F1FA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M117.545306,75.6175037 C117.545306,75.6175037 453.857664,-124.659784 826.31559,37.1182729 C1198.77352,198.89633 1487.60795,146.818887 1592.47826,131.657709 C1697.34858,116.496531 1963.85924,141.41755 2045.35047,376.14574 C2126.84171,610.87393 2039.19723,868.533736 1721.71802,896.240989 C1404.23881,923.948242 1108.45018,795.107643 826.31559,821.78276 C544.180997,848.457876 435.20852,934.799046 251.612409,896.240989 C68.0162975,857.682931 77.3895758,787.593903 14.2877141,543.897355 C-48.8141476,300.200807 117.545306,75.6175037 117.545306,75.6175037 Z" id="back_3" fill="url(#linearGradient-1)" transform="translate(1037.000000, 440.000000) rotate(-3.000000) translate(-1037.000000, -440.000000) "></path>
+    </g>
+</svg>
