@@ -9,5 +9,54 @@
     writing-mode: vertical-rl;
     margin-bottom: 15px;
     transform: rotate(180deg);
+    transition: $hover-transition-time;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+
+    .ic-contact {
+      fill: #c7b0c9;
+    }
+
+    @include md-half {
+      width: 18px;
+      height: 18px;
+    }
+
+    &_white {
+      .ic-contact {
+        fill: #fff;
+      }
+    }
+  }
+
+  &:hover {
+    & > p {
+      margin-bottom: 25px;
+    }
+  }
+
+  &:focus {
+    .contact-me-link__icon {
+      .ic-contact {
+        fill: $primary-focus;
+      }
+
+      &_white {
+        .ic-contact {
+          fill: $white-focus;
+        }
+      }
+    }
+  }
+
+  @include md {
+    &:hover {
+      & > p {
+        margin-bottom: 15px;
+      }
+    }
   }
 }
