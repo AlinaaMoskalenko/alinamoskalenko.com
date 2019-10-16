@@ -44,11 +44,11 @@ a {
 }
 
 @for $i from 1 to 4 {
-  .content-block-#{$i} {
+  .grid-container-#{$i} {
     position: relative;
     display: grid;
 
-    &__background {
+    .grid-item__background {
       width: 100%;
     }
   }

@@ -1,0 +1,13 @@
+.contact-me-link {
+  display: flex;
+  flex-direction: column;
+
+  & > p {
+    font-weight: $font-weight-medium;
+    letter-spacing: 3.5px;
+    color: $lighter-black;
+    writing-mode: vertical-rl;
+    margin-bottom: 15px;
+    transform: rotate(180deg);
+  }
+}

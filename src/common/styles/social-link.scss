@@ -1,0 +1,10 @@
+.social-link {
+  width: 255px;
+  display: flex;
+  justify-content: space-between;
+
+  & > a {
+    display: flex;
+    align-items: center;
+  }
+}
