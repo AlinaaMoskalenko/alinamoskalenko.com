@@ -1,0 +1,28 @@
+:root {
+  // Fonts family
+  #{--font-montserrat-light}: 'Montserrat-Light', sans-serif;
+  #{--font-montserrat-regular}: 'Montserrat-Regular', sans-serif;
+  #{--font-montserrat-medium}: 'Montserrat-Medium', sans-serif;
+  #{--font-montserrat-semibold}: 'Montserrat-SemiBold', sans-serif;
+  #{--font-montserrat-bold}: 'Montserrat-Bold', sans-serif;
+  
+  // Fonts size
+  #{--font-primary}: 16px;
+  #{--font-xxs}: 12px;
+  #{--font-xs}: 14px;
+  #{--font-sm}: 20px;
+  #{--font-md}: 28px;
+  #{--font-lg}: 30px;
+  #{--font-xl}: 36px;
+  #{--font-xxl}: 45px;
+  #{--font-x3l}: 50px;
+  #{--font-x4l}: 60px;
+  #{--font-x5l}: 75px;
+  
+  // Font weight
+  #{--font-weight-light}: 300;
+  #{--font-weight-regular}: 400;
+  #{--font-weight-medium}: 500;
+  #{--font-weight-semibold}: 600;
+  #{--font-weight-bold}: 700;
+}
