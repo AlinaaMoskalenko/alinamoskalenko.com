@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--font-primary);
+}
+
+button {
+  outline: none;
+}
+
+label {
+  color: var(--text-color-secondary);
+  font-size: var(--font-xs);
+  font-family: var(--font-montserrat-medium);
+}

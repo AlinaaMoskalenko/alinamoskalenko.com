@@ -1,0 +1,44 @@
+.checkbox {
+  display: none;
+  
+  & + div {
+    max-width: 200px;
+    height: 0;
+    transform: scaleY(0);
+    transform-origin: top center;
+  }
+  
+  &:checked + div {
+    height: auto;
+    transform: scaleY(1);
+    transition: transform .2s ease-out;
+    
+    & + label {
+      &:after {
+        top: 40%;
+        transform: rotate(-135deg);
+      }
+    }
+  }
+}
+
+.read-more-block {
+  position: relative;
+  display: inline-block;
+  padding-right: 15px;
+  cursor: pointer;
+  
+  &:after {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    width: 5px;
+    height: 5px;
+    border-color: var(--text-color-secondary);
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+    transition: transform .2s;
+    content: '';
+  }
+}

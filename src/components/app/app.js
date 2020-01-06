@@ -1,9 +1,9 @@
 import React from 'react';
-import About from "../about";
+import ReadMoreBlock from "../common/read-more-block";
 
 const App = () => {
   return (
-    <About />
+    <ReadMoreBlock text='helloooooo' />
   );
 };
 

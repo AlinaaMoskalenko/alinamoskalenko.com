@@ -19,10 +19,15 @@
   #{--font-x4l}: 60px;
   #{--font-x5l}: 75px;
   
-  // Font weight
-  #{--font-weight-light}: 300;
-  #{--font-weight-regular}: 400;
-  #{--font-weight-medium}: 500;
-  #{--font-weight-semibold}: 600;
-  #{--font-weight-bold}: 700;
+  // Colors
+  #{--text-color-primary}: #000;
+  #{--text-color-secondary}: #86608a;
+  #{--btn-color-primary}: #fff;
+  #{--btn-color-secondary}: #c77bae;
+  #{--input-label-color}: #929292;
+  #{--input-line-color}: #e1e1e1;
+  #{--input-line-color-active}: var(--text-color-secondary);
+  #{--slider-num-color}: #e6d9e7;
+  #{--slider-num-color-active}: var(--text-color-secondary);
+  #{--contect-label-color}: #101010;
 }
