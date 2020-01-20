@@ -1,0 +1,104 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 245px;
+  min-height: 50px;
+  border-radius: 25px;
+  color: var(--btn-text-color-primary);
+  background-color: var(--btn-color-primary);
+  box-shadow: var(--btn-shadow);
+  transform: translateY(0);
+  transition: transform .3s ease-out;
+  
+  &:focus,
+  &:active {
+    background-color: var(--btn-color-active-primary);
+  }
+  
+  &:hover {
+    box-shadow: var(--btn-hover-shadow);
+    transform: translateY(-10px);
+  }
+
+  &.secondary {
+    color: var(--btn-text-color-secondary);
+    background-color: var(--btn-color-secondary);
+  
+    &:focus,
+    &:active {
+      background-color: var(--btn-color-active-secondary);
+    }
+  }
+  
+  &.arrow {
+    position: relative;
+    min-width: 75px;
+    min-height: 55px;
+    box-shadow: var(--btn-arrow-shadow);
+    transform: none;
+    
+    &:hover {
+      box-shadow: var(--btn-arrow-hover-shadow);
+    }
+    
+    &:before,
+    &:after {
+      position: absolute;
+      content: '';
+    }
+  
+    &:before {
+      top: 56%;
+      left: 51%;
+      width: 12px;
+      height: 12px;
+      border-width: 2px 2px 0 0;
+      border-style: solid;
+      border-color: var(--btn-text-color-primary);
+      transform: rotate(45deg) translate(-50%, -50%);
+    }
+    
+    &:after {
+      top: 50%;
+      left: 50%;
+      width: 30px;
+      height: 2px;
+      border-radius: 1px;
+      background-color: var(--btn-text-color-primary);
+      transform: translate(-50%, -50%);
+    }
+    
+    &:disabled {
+      &:before {
+        border-color: var(--btn-text-color-disabled);
+      }
+      
+      &:after {
+        background-color: var(--btn-text-color-disabled);
+      }
+    }
+    
+    &-left {
+      transform: scaleX(-1);
+    }
+  }
+  
+  &.arrow-text {
+    position: relative;
+    min-width: auto;
+    min-height: 45px;
+    padding: 0 40px 0 15px;
+
+    &:after {
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      width: 16px;
+      height: 9px;
+      background: url("../../../assets/icons/arrow.svg") no-repeat center;
+      transform: translateY(-45%);
+      content: '';
+    }
+  }
+}

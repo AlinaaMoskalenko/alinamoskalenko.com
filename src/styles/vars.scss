@@ -24,10 +24,21 @@
   #{--text-color-secondary}: #86608a;
   #{--btn-color-primary}: #fff;
   #{--btn-color-secondary}: #c77bae;
+  #{--btn-color-active-primary}: #f9f5fa;
+  #{--btn-color-active-secondary}: #a15086;
+  #{--btn-text-color-primary}: var(--text-color-secondary);
+  #{--btn-text-color-secondary}: var(--btn-color-primary);
+  #{--btn-text-color-disabled}: #c7b0c9;
   #{--input-label-color}: #929292;
   #{--input-line-color}: #e1e1e1;
   #{--input-line-color-active}: var(--text-color-secondary);
   #{--slider-num-color}: #e6d9e7;
   #{--slider-num-color-active}: var(--text-color-secondary);
   #{--contect-label-color}: #101010;
+  
+  // Shadow
+  #{--btn-shadow}: 0 20px 20px 0 rgba(67, 29, 90, 0.12);
+  #{--btn-hover-shadow}: 0 30px 35px 0 rgba(67, 29, 90, 0.12);
+  #{--btn-arrow-shadow}: 5px 20px 20px 0 rgba(67, 29, 90, 0.03);
+  #{--btn-arrow-hover-shadow}: 5px 20px 20px 0 rgba(67, 29, 90, 0.08);
 }

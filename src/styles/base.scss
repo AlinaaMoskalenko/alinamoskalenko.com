@@ -7,7 +7,12 @@ html {
 }
 
 button {
+  font-size: var(--font-xs);
+  font-family: var(--font-montserrat-bold);
+  border: none;
   outline: none;
+  cursor: pointer;
+  letter-spacing: 1px;
 }
 
 label {
