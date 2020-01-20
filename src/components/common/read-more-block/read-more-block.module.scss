@@ -6,6 +6,7 @@
     height: 0;
     transform: scaleY(0);
     transform-origin: top center;
+    user-select: none;
   }
   
   &:checked + div {
@@ -27,6 +28,7 @@
   display: inline-block;
   padding-right: 15px;
   cursor: pointer;
+  user-select: none;
   
   &:after {
     position: absolute;
