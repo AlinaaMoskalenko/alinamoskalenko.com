@@ -1,0 +1,19 @@
+.link:not(:last-child) {
+  margin-right: 40px; //for desktop 60px
+}
+
+.icon {
+  transform: translateY(0);
+  transition: transform .3s ease-out;
+  
+  &:hover {
+    fill: var(--btn-color-secondary);
+    filter: var(--social-link-shadow);
+    transform: translateY(-4px);
+  }
+  
+  &:focus,
+  &:active {
+    fill: var(--btn-color-active-secondary);
+  }
+}

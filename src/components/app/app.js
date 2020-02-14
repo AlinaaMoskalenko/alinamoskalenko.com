@@ -1,9 +1,9 @@
 import React from 'react';
-import ReadMoreBlock from "../common/read-more-block";
+import SocialLinks from "../main-page-components/social-links";
 
 const App = () => {
   return (
-    <ReadMoreBlock text='helloooooo' />
+    <SocialLinks />
   );
 };
 
