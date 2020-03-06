@@ -1,0 +1,36 @@
+.project {
+  &-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 285px;
+    background-color: var(--project-card-bg);
+    box-shadow: var(--project-card-shadow);
+    border-radius: var(--border-radius);
+  }
+
+  &-img {
+    height: 225px;
+    background-color: pink;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    background-size: cover;
+  }
+
+  &-description {
+    padding: 25px 25px 0;
+
+    .title {
+      margin-bottom: 15px;
+      line-height: var(--line-height-24);
+    }
+
+    .description {
+      line-height: var(--line-height-22);
+    }
+  }
+
+  &-action {
+    display: flex;
+    padding: 10px 15px 20px;
+  }
+}
