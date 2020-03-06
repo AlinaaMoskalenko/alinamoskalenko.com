@@ -1,9 +1,18 @@
 import React from 'react';
-import SocialLinks from "../main-page-components/social-links";
+import SkillBar from "../main-page-components/skill-bar";
 
 const App = () => {
   return (
-    <SocialLinks />
+    <SkillBar skills={[
+      {
+        value: '10',
+        label: 'a'
+      },
+      {
+        value: '90',
+        label: 'b'
+      }
+    ]} />
   );
 };
 
