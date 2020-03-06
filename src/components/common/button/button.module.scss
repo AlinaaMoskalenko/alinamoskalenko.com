@@ -1,53 +1,57 @@
-.btn {
+.btn,
+.link-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 245px;
-  min-height: 50px;
-  border-radius: 25px;
-  color: var(--btn-text-color-primary);
-  background-color: var(--btn-color-primary);
-  box-shadow: var(--btn-shadow);
+  border-radius: var(--border-radius);
   transform: translateY(0);
-  transition: transform .3s ease-out;
-  
+
   &:focus,
   &:active {
     background-color: var(--btn-color-active-primary);
   }
-  
+
   &:hover {
     box-shadow: var(--btn-hover-shadow);
     transform: translateY(-10px);
   }
+}
+
+.btn {
+  min-width: 245px;
+  min-height: 50px;
+  color: var(--btn-text-color-primary);
+  background-color: var(--btn-color-primary);
+  box-shadow: var(--btn-shadow);
+  transition: transform .3s ease-out;
 
   &.secondary {
     color: var(--btn-text-color-secondary);
     background-color: var(--btn-color-secondary);
-  
+
     &:focus,
     &:active {
       background-color: var(--btn-color-active-secondary);
     }
   }
-  
+
   &.arrow {
     position: relative;
     min-width: 75px;
     min-height: 55px;
     box-shadow: var(--btn-arrow-shadow);
     transform: none;
-    
+
     &:hover {
       box-shadow: var(--btn-arrow-hover-shadow);
     }
-    
+
     &:before,
     &:after {
       position: absolute;
       content: '';
     }
-  
+
     &:before {
       top: 56%;
       left: 51%;
@@ -58,7 +62,7 @@
       border-color: var(--btn-text-color-primary);
       transform: rotate(45deg) translate(-50%, -50%);
     }
-    
+
     &:after {
       top: 50%;
       left: 50%;
@@ -68,37 +72,41 @@
       background-color: var(--btn-text-color-primary);
       transform: translate(-50%, -50%);
     }
-    
+
     &:disabled {
       &:before {
         border-color: var(--btn-text-color-disabled);
       }
-      
+
       &:after {
         background-color: var(--btn-text-color-disabled);
       }
     }
-    
+
     &-left {
       transform: scaleX(-1);
     }
   }
-  
-  &.arrow-text {
-    position: relative;
-    min-width: auto;
-    min-height: 45px;
-    padding: 0 40px 0 15px;
+}
 
-    &:after {
-      position: absolute;
-      top: 50%;
-      right: 15px;
-      width: 16px;
-      height: 9px;
-      background: url("../../../assets/icons/arrow.svg") no-repeat center;
-      transform: translateY(-45%);
-      content: '';
-    }
+.link-btn {
+  position: relative;
+  min-height: 40px;
+  padding: 0 40px 0 15px;
+  font-size: var(--font-xs);
+  font-family: var(--font-montserrat-medium);
+  color: var(--btn-text-color-primary);
+  line-height: var(--line-height-24);
+  transition: .3s ease-out;
+
+  &:after {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    width: 16px;
+    height: 9px;
+    background: url("../../../assets/icons/arrow.svg") no-repeat center;
+    transform: translateY(-45%);
+    content: '';
   }
 }
