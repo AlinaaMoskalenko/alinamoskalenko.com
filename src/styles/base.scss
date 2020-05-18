@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
@@ -13,6 +14,12 @@ button {
   outline: none;
   cursor: pointer;
   letter-spacing: 1px;
+}
+
+input {
+  font-size: var(--font-xs);
+  font-family: var(--font-montserrat-semibold);
+  color: var(--text-color-secondary);
 }
 
 label {
@@ -31,4 +38,19 @@ h2,
 h3,
 p {
   margin: 0;
+}
+
+h1 {
+  font-size: var(--font-xl);
+  font-family: var(--font-montserrat-bold);
+}
+
+@media (min-width: 768px) {
+  input {
+    font-size: var(--font-primary);
+  }
+  
+  h1 {
+    font-size: var(--font-x3l);
+  }
 }

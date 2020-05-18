@@ -1,18 +1,9 @@
 import React from 'react';
-import SkillBar from "../main-page-components/skill-bar";
+import ContactForm from "../main-page/contact-form";
 
 const App = () => {
   return (
-    <SkillBar skills={[
-      {
-        value: '10',
-        label: 'a'
-      },
-      {
-        value: '90',
-        label: 'b'
-      }
-    ]} />
+    <ContactForm />
   );
 };
 
